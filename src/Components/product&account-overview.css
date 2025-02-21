@@ -1,0 +1,104 @@
+.our-blogs{
+   
+    width:100%;
+    height: 60vh;
+    background-color: rgb(61, 62, 62);
+
+}
+.productaccount{
+height: fit-content !important;
+}
+.equity-img{
+    width:25px;
+}
+.swap-free-accounts-table-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.swap-free-accounts-section__table-header {
+    border-radius: 10px 10px 0 0;
+    background-color: var(--card-img-bg);
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--account-table-details);
+    padding: 24px 0;
+    max-width: 960px;
+    width: 100%;
+    font-family: Lato-Regular;
+
+}
+.swap-free-accounts-section__table {
+    max-width: 960px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 0 20px;
+    width: 100%;
+}
+.swap-free-accounts-table__cell {
+    color: var(--account-table-details);
+    font-family: Lato;
+    text-align: left;
+    padding: 24px 32px;
+    border: 1px solid #eff2f7;
+    border-top: none;
+    border-left: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Lato-Regular;
+    line-height: 150%;
+}
+.swap-free-accounts-section__table>div:nth-child(4n+1), .swap-free-accounts-section__table>div:nth-child(4n+2) {
+    background-color: #fff;
+}
+.swap-free-accounts-table__cell:nth-child(odd) {
+    border-left: 1px solid #eff2f7;
+}
+.swap-free-accounts-section__table>div:nth-child(4n+3), .swap-free-accounts-section__table>div:nth-child(4n+4) {
+    background-color: var(--card-img-bg);
+}
+.swap-free-accounts-section__products_table-header {
+    border-radius: 10px 10px 0 0;
+    background-color: var(--card-img-bg);
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    color: var(--account-table-details);
+    padding: 24px 0;
+    max-width: 960px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: left;
+    flex-direction: row;
+    font-size: 16px;
+    font-family: Lato-Regular;
+}
+.swap-free-accounts-section__products_table-header-item {
+    width: 100%;
+    padding-left: 34px;
+}
+.swap-free-accounts-section__products__buttons {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--nav-link-color);
+    padding: 24px 32px;
+    border: 1px solid #eff2f7;
+    border-top: none;
+    width: 200%;
+    font-family: Lato-Regular;
+    border-radius: 0 0 10px 10px;
+    background-color: #fbfafd;
+    cursor: pointer;
+}

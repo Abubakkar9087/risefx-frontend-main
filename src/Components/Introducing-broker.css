@@ -1,0 +1,20 @@
+.our-blogs{
+   
+    width:100%;
+    height: 60%;
+    /* background-color: #fff; */
+    padding-top: 50px;
+}
+.About-top{
+    padding-top: 50px;
+    text-align: center;
+}
+@media (min-width:320px) and (max-width:765px){
+    .ico{
+        margin-bottom: 20px;
+    }
+    .subtitle{
+        text-align: center !important;
+        font-size: 17px ;
+    }
+}

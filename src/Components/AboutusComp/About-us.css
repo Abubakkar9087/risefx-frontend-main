@@ -1,0 +1,241 @@
+
+div.MuiBox-root.css-1gsv261 > div > div > span{  
+    background-color: var(--border-color) !important;
+}
+.About-us{
+    /* width:80% !important; */
+    height: 60%;
+    margin: auto;
+    /* background-color: #fff; */
+    /* padding-top: 50px; */
+}
+.about-wrapper{
+    background-image: var(--layout-bg-About);
+    background-repeat: no-repeat;
+    
+    
+/* padding-top: 100px; */
+}
+.text_back{
+    font-size: 16px;
+    padding-bottom: 33px;
+    font-family: "Lato-Regular";
+}
+.text_back p{
+padding-top: 30px;
+width: 70%;
+margin: auto;
+}
+.About-top{
+    margin: auto;
+    
+    border-radius: 10px;
+    padding: 94px 40px 0;
+    box-sizing: border-box;
+    max-width: 1280px;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 0 50px rgba(13,19,80,0.05);
+    
+}
+.About-Ready-start-trading{
+    margin-top: 10% !important;
+    padding: 64px 60px;
+    margin: auto;
+    width:100%;
+    background: linear-gradient(180deg, rgba(197, 174, 255, 0.1) -0.87%, rgba(191, 214, 255, 0.1) 99.08%);
+}
+.About-card-one{
+    height: 100% !important;
+    width: 100% !important;
+}
+.About-Header-top{
+    text-align: center;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-family: "Lato-Bold";
+    color: var(--nav-link-color);
+}
+.About-us .css-1ujnqem-MuiTabs-root{
+    
+    margin-left: 0px !important;
+}
+.accordion{
+    margin-left: 0px !important;
+}
+.product-subheader{
+    padding-top: 30px;
+}
+.product-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:64px;
+}
+.main__why-we-are-different-cardss{
+background: #fff;
+box-shadow: 0 0 50px rgba(13,19,80,0.05);
+border-radius: 10px !important;
+/* padding: 32px; */
+max-width: 320px;
+display: flex;
+flex-direction: column;
+justify-self: center;
+width: 100%;
+position: relative;
+box-sizing: border-box;
+}
+.Sub-header{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: Lato-Regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #fff;
+    background: var(--account);
+    margin: 0;
+    padding: 24px 0px;
+    text-align: center;
+    width: 100%;
+}
+.product-contant{
+  padding: 32px;
+  text-align: justify;
+  color: #7d7987;
+
+  
+}
+.main__why-we-are-different-grid {
+    display: grid;
+    max-width: 1440px;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 345px)) !important;
+    gap: 50px  !important;
+    justify-content: center !important;
+}
+.main__why-we-are-different-cards {
+    margin-top: 50px;
+    box-sizing: border-box;
+    max-width: 90%;
+    height: 420px;
+    align-items: flex-start;
+    font-size: 16px;
+    font-family: Lato-Regular;
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
+    box-shadow: 0 0 50px #ecea691f ;
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+.main__why-we-are-different-cards:hover{
+    transform: translateX(10px);
+}
+.cards__title{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--nav-link-color);
+    padding:10px;
+    padding-left: 20px;
+    /* margin: 24px 0 0; */
+}
+.cards__description{
+    font-family: "Lato-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding:10px;
+    line-height: 150%;
+    color: var(--card-details);
+    /* margin: 24px 0 0; */
+}
+@media (min-width:320px) and (max-width:765px) {
+    /* .css-1ujnqem-MuiTabs-root{
+        overflow: scroll !important;
+    }*/
+    .tabs-scrollbar > div::-webkit-scrollbar{
+        display: none !important;
+    }
+.tabs-scrollbar > div{ 
+        overflow: scroll !important;
+    } 
+    .css-heg063-MuiTabs-flexContainer {
+        /* overflow: scroll !important; */
+        width: 100% !important;
+        /* padding: 0px 10px !important; */
+    }
+    .css-heg063-MuiTabs-flexContainer::-webkit-scrollbar{
+        display: none !important;
+    }
+    .About-Header-top{
+        font-size: 22px !important;
+        padding: 32px 0 30px !important;
+    }
+    .About-top{
+        width: 92% !important;
+        margin: auto !important;
+        padding: 10px !important;
+    }
+    .text-h2 h2,.About-Header,.card__title{
+        font-family: "Lato-Bold";
+        font-size: 22px !important;
+    }
+    .card__title ,.card__description{
+        text-align: start;
+    }
+    
+    .Empty-line{
+        border: 1px solid !important;
+        width: 30px !important;
+        margin-bottom: 30px;
+
+    }
+    .text-back{
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+    .text-back p{
+        width: 100%;
+        text-align: center;
+        font-size: 16px !important;
+        margin-bottom: 0px;
+    }
+    
+    .section7-div{
+        margin: auto !important;
+        margin-top: 20px !important;
+        width: 30px !important;
+    }
+    #try-a-free-demo ,#get-a-live-account{
+        width: 100%;
+    }
+    .About-Ready-start-trading {
+        padding: 59px 23px;
+    }
+    .css-jpln7h-MuiTabs-scroller{
+        overflow: visible !important;
+    }
+    .main__why-we-are-different-cardss{
+        width: 100% !important;
+        height: fit-content !important;
+    }
+    .product-card{
+        flex-direction: column;
+    }
+    .product-contant{
+        font-size: 16px;
+        font-family: "Lato-Regular";
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        text-align: start;
+    }
+}

@@ -1,0 +1,212 @@
+.Forex_image{
+    box-shadow: rgba(0, 5, 1, 1.07) 3px 4px 7px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+        height: 100%;
+    width:100%;
+    margin-bottom: 30px;
+}
+.Gold_image{
+    box-shadow: rgba(0, 5, 1, 1.07) 3px 4px 7px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    height: 100%;
+    width:100%;
+    margin-bottom: 30px;
+    margin-top:30px;
+}
+.div-div-e-list{
+    font-family: "Lato-Regular";
+    width:50%;
+    margin: auto;
+    font-size: 16px;
+    text-align:start;
+    /* padding-left: 100px; */
+}
+.Gold-XAU{
+    font-weight: bold;
+}
+.div-div-e-start{
+    font-family: "Lato-Regular";
+    width: 70%;
+    margin: auto;
+    font-size: 16px;
+    text-align: start;
+    
+}
+.text-back>p{
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-family: "Lato-Regular";
+}
+.our-blogs{
+   
+    width:100%;
+    height: 60%;
+    /* background-color: #fff; */
+    padding-top: 50px;
+}
+.About-top{
+    padding-top: 50px;
+    text-align: center;
+}
+.page__content_background_blue {
+    background: #f9f9ff;
+}
+.padding_top_120 {
+    padding-top: 120px !important;
+}
+.padding_bottom_120 {
+    padding-bottom: 120px !important;
+}
+.margin_bottom_80 {
+    margin-bottom: 80px !important;
+}
+.title_48px {
+    font-size: 48px;
+}
+.title {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #0d1350;
+    margin: 0 auto;
+    padding: 0;
+}
+.max-width_1040 {
+    max-width: 1040px;
+}
+.table__main {
+    min-width: 315px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 0 auto;
+}
+.table__main thead tr {
+    color: #fff;
+    font-size: "Lato-Regular";
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+}
+.table__main td, .table__main thead th {
+    font-style: normal;
+    padding: 24px 10px 24px 70px;
+}
+.table__main thead th {
+    background-color: var(--card-img-bg);
+    font-weight: 700;
+    font-size: 16px;
+    font-size: "Lato-Regular";
+    line-height: 24px;
+    color: var(--account-table-details);
+}
+.table__main tbody tr {
+    display: table-row;
+    background-color: #fff;
+}
+.table__main td:first-child {
+    border-left: 1px solid #e8e4f4;
+}
+.table__main td {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--nav-link-color);
+}
+.table__main td, .table__main thead th {
+    font-style: normal;
+    padding: 24px 10px 24px 70px;
+}
+.table__main .table__main_show-more-button {
+    text-align: center;
+    color: #515581;
+    cursor: pointer;
+    background: #fbfafd;
+    border-bottom: 1px solid #e8e4f4;
+    border-left: 1px solid #e8e4f4;
+    border-right: 1px solid #e8e4f4;
+    padding: 16px 0;
+    font-size: 16px;
+}
+.table__main td:last-child {
+    border-right: 1px solid #e8e4f4;
+}
+.table__main td:first-child {
+    border-left: 1px solid #e8e4f4;
+}
+.swap-free-accounts-section__products__button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--nav-link-color);
+    padding: 24px 32px;
+    border: 1px solid #eff2f7;
+    border-top: none;
+    width: 100%;
+    font-family: Lato-Regular;
+    border-radius: 0 0 10px 10px;
+    background-color: #fbfafd;
+    cursor: pointer;
+}
+.text-h2 h2{
+  margin-bottom: 50px;
+}
+.About-Header  {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.accordion{
+    width: 60% !important;
+    margin: auto !important;
+
+}
+.accordion-body{
+    text-align: start !important;
+}
+
+@media (min-width:320px) and (max-width:765px){
+    .div-div-e-list{
+        width: 85%;
+        
+    }
+    .text-h2 h2{
+        padding-top: 40px !important;
+        margin-bottom: 20px !important;
+      
+    }
+    .About-card-one h2{
+        font-size: 22px !important;
+        color: #0d1350;
+        margin-top: 40px;
+    }
+    .About-Header{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 22px !important;
+    }
+    .accordion-body{
+        font-family: "Lato-Regular";
+        text-align: start;
+    }
+    .div-div-e p{
+        font-family: "Lato-Regular";
+    }
+    .text-h2 h3 ,.section-text h3{
+        font-size: 22px !important;
+        color: #0d1350;
+    }
+    .table__main thead th {
+font-size: 12px !important;
+    }
+    .padding_bottom_120{
+        overflow: scroll !important;
+    }
+    
+}

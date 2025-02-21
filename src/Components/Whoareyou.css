@@ -1,0 +1,97 @@
+.Whoareyou{
+    width: 100%;
+    height: 3557px;
+    background-image: url('../Images/Who.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+}
+.page-contant{
+    width: 1280px;
+    height: 3361px;
+    background-color: white;
+    margin-top:-90px;
+    margin-left: 13%;
+}
+.Whoareyou h1{
+
+    height:196px;
+    text-align: center;
+    margin-top: 90px;
+}
+.tab-context{
+   margin-left: 15%;
+}
+.text-we {
+    text-align: center;
+}
+.main-text {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+ }
+
+ 
+    
+  .empty-line {
+    border: 1px solid black;
+    width: 0px;
+    margin-top: -19%;
+  }
+.text-We{
+    text-align: center;
+    width: 900px;
+    font-size: 20px;
+    margin-top: -9%;
+}
+.who-tabs{
+    width: 1140px;
+    height: 308px;
+    display: flex;
+    margin-left: 13%;
+}
+.inside-div{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    box-shadow: -8px 2px 35px rgba(130,127,159,0.3);
+}
+.image-content{
+    align-items: center;
+    justify-content: center;
+    margin-left:30%;
+    margin-top: 40px;
+    background-color: rgba(152, 94, 255, 0.1);
+    box-shadow: -8px 2px 35px rgba(130,127,159,0.1);
+    border-radius: 10px;
+    width: 54px;
+    height: 54px;
+}
+.image-content img {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.inside-div h2{
+    width: 200px;
+    margin-top: 20px;
+    text-align: center;
+}
+.inside-div p{
+width: 200px;
+text-align: center;
+/* margin-left: 20px; */
+margin-top: 30px;
+}
+.inside-div-1{
+    width: 200px;
+    height: 300px;
+}
+.inside-div-1 img{
+    justify-content: center;
+    margin-top: 140px;
+    margin-left: 60px;
+}
+.div-item{
+    width: 200px;
+    height: 300px;
+}

@@ -1,0 +1,143 @@
+.our-blogs{
+   
+    width:100%;
+    height: 60%;
+    /* background-color: #fff; */
+    padding-top: 50px;
+}
+.About-top{
+    padding-top: 50px;
+    text-align: center;
+}
+.text-back{
+    padding-top: 20px;
+    padding-bottom: 20px;
+ margin-left: 0px !important;
+}
+@media (min-width:320px) and (max-width:765px){
+    .mobile-pic{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .mobile-pic img{
+         width: 100%;
+    }
+    .main-QR-tab-1, .main-QR-tab-2{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    justify-content: center;
+    margin: auto;
+    }
+    .QR-link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+    }
+    .platform-card , .android{
+        /* padding-top: 30px; */
+        margin-bottom: 65px !important;
+
+    }
+}
+.platform-card{
+    margin-top: 50px;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: 210px;
+    align-items: flex-start;
+    font-size: 16px;
+    font-family: "Lato-Regular";
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
+    box-shadow: 0 0 50px #ecea691f;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+.main-QR{
+    width: 100%;
+    height: 100%;
+    /* display: flex ;
+    align-items: center;
+    justify-content: center; */
+}
+.main-QR-tab-1{
+    width: 100%;
+    height: 100%;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 30px;
+
+}
+.download-padding-top{
+    padding-top:60px !important;
+}
+.main-QR-tab-2{
+    width: 100%;
+    height: 100%;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+.ImageQR{
+    /* padding-top: 40px; */
+    height: 270px;
+    width:295px;
+    margin: auto;
+}
+.QRcode{
+width:200px;
+height: 200px;
+margin: auto;
+}
+.QR-link{
+    text-align: start;
+    margin: auto;
+    display:flex;
+    padding-bottom: 50px;
+
+}
+.QR-link>p{
+    margin: auto;
+}
+.QR-link>p>a ,.QR-links>p>a{
+    color: var(--nav-link-color);
+}
+.web_trader{
+    color:#F6A838 !important;
+}
+.QR-links{
+    text-align: start;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.QR-links>p{
+    margin: auto;
+    text-align: center;
+}
+.innerQR{
+    color: var(--border-color);
+    width:30px;
+height: 20px;
+    margin-right: 10px;
+}
+.Down-load-risefx{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.android{
+    height: 300px;
+    width:300px;
+    margin: auto;
+    background-color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;    border-radius: 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}

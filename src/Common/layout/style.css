@@ -1,0 +1,22 @@
+/* .content-layout{
+    background-image: var(--layout-bg-Section1);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+} */
+.section-3back{
+    background-image: var(--layout-bg-Section2);
+    background-repeat: no-repeat;
+    background-position:  0 25%;
+    z-index: -1;
+}
+.section-5top{
+    background-image: var(--layout-bg-Section3);
+    background-repeat: no-repeat;
+    background-position:  0 72%;
+}
+.section-5bottom{
+    background-image: var(--layout-bg-Section4);
+    background-repeat: no-repeat;
+    background-position:  100% 80%;
+
+}

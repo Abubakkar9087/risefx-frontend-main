@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="qa-ib" transform="translate(-16.000000, -28.000000)">
+            <g id="1" transform="translate(16.000000, 28.000000)">
+                <g id="checked-copy-17" fill="#95E2D2">
+                    <g id="Group-4">
+                        <g id="Group-2">
+                            <circle id="Oval" cx="10" cy="10" r="10"></circle>
+                        </g>
+                    </g>
+                </g>
+                <path d="M13.245,13.705 L13.245,15 L7.645,15 L7.645,13.705 L9.696,13.705 L9.696,7.804 C9.696,7.5706655 9.70299993,7.33033457 9.717,7.083 L8.261,8.301 C8.17699958,8.36633366 8.09416707,8.40716659 8.0125,8.4235 C7.93083292,8.43983342 7.85383369,8.44100007 7.7815,8.427 C7.7091663,8.41299993 7.64500028,8.38850018 7.589,8.3535 C7.53299972,8.31849983 7.49100014,8.28000021 7.463,8.238 L6.917,7.489 L10.004,4.864 L11.425,4.864 L11.425,13.705 L13.245,13.705 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

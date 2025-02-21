@@ -1,0 +1,355 @@
+.main{
+    max-width: 1440px;
+    margin:0 auto;
+
+}
+.disclaimer{
+    font-weight: bold;
+    color: var(--nav-link-color);
+}
+.footer-wrapper{
+    font-size: 12px;
+    line-height: 24px;
+    color: var(--card-details);
+    max-width: 1440px;
+    margin: 0 auto;
+   font-family: "Lato-Regular";
+
+}
+.logo-footer-div{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+
+}
+.logo-footer-div ul{
+    padding-left: 0px !important;
+}
+.risefx-footer{
+    padding-top: 40px;
+    background-color: #f9f9fe;
+    margin-top: 40px;
+}
+.ticker{
+    position: fixed;
+    width: 100%;
+    bottom:0;
+    left:0;
+}
+.pic-1{
+    margin-left: 50px;
+    margin-top: 70px;
+    width: 200px;
+    height: 70px;
+}
+.pic-1 img{
+    width:100%;
+    height: 100%;
+}
+.rise-email{
+    font-size: 16px;
+    color: var(--nav-link-color);
+
+}
+.rise_add{
+    font-size: 16px;
+    width:68%;
+    height: 5%;
+    color: var(--nav-link-color);
+}
+.links{
+    list-style: none;
+    padding-left: 1rem !important;
+    font-family: "Lato-Bold";
+    color: #0d1350;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.Scontainer{
+ height: 100%;
+ margin-left: 3.5%;
+ margin-top: 20px;
+ display: flex;
+}
+.about-footer{
+    /* width:200px; */
+}
+.about-footer h5{
+    font-size: 16px;
+    color: var(--nav-link-color);
+    font-family: "Lato-Bold";
+    
+}
+.about-footer ul li{
+    list-style: none;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0d1350;
+    font-family: "Lato-Regular";
+}
+.about-footer ul li a,.Footer-Trading ul li a,.plf-footer ul li a,.parter-footer ul li a,.help-footer ul li a{
+    
+    text-decoration: none !important;
+    color: var(--nav-link-color);
+    
+ }
+.Footer-Trading{
+    
+}
+.Footer-Trading h5{
+    font-size: 16px;
+    color: var(--nav-link-color);
+    font-family: "Lato-Bold";
+}
+.Footer-Trading ul li{
+    list-style: none;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0d1350;
+    font-family: "Lato-Regular";
+}
+.plf-footer ul li{
+    font-size: 16px;
+ list-style: none;
+ margin-top: 20px;
+ font-size: 16px;
+    line-height: 24px;
+    color: #0d1350;
+    font-family: "Lato-Regular";
+}
+.plf-footer{
+}
+.plf-footer h5{
+    font-size: 16px;
+    color: var(--nav-link-color);
+    font-family: "Lato-Bold";
+}
+.parter-footer{
+    
+}
+.parter-footer ul li{
+    font-size: 16px;
+    list-style: none;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0d1350;
+    font-family: "Lato-Regular";
+}
+.parter-footer h5{
+    font-size: 16px;
+    color: var(--nav-link-color);
+    font-family: "Lato-Bold";
+}
+.help-footer{
+  
+}
+.help-footer h5{
+    font-size: 16px;
+    color: var(--nav-link-color);
+    font-family: "Lato-Bold";
+}
+.help-footer ul li{
+    font-size: 16px;
+    list-style: none;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0d1350;
+    font-family: "Lato-Regular";
+}
+.regulator h5{
+    margin-top: 150px;
+}
+.option {
+    margin-left: 40px;
+    height:40px;
+    width:70px;
+}
+.follow h5{
+    font-size: 16px;
+    margin-top: 80px;
+    color: var(--nav-link-color);
+
+}
+.Footer-icon{
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    margin-left: -22px;
+}
+.youtube img{
+    width:26px;
+}
+.Footer-icon li{
+    margin-left: 15px;
+}
+.line-1{
+    border: 1px solid linear-gradient(90deg, #742cce, #1811a2);
+    margin-top: 30px;
+}
+.viva{
+    display: flex;
+    margin-top: 70px;
+}
+.viva p{
+    margin-left: 180px;
+}
+.viva h5{
+    margin-left: 120px;
+    font-size:16px;
+}
+.viva img{
+    margin-left: 100px;
+}
+.social{
+    padding-left: 100px;
+    width:90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+.social span{
+  margin-top: 90px;
+}
+.flag{
+    width: 50px;
+    height: 50px;
+}
+@media screen and (min-width:1200px){
+    .help-footer{
+        margin-left: 0px;
+    }
+}
+@media (max-width:1380px) {
+.footer-wrapper{
+  padding: 10px 30px;
+}
+    
+}
+@media (min-width:320px) and (max-width:765px){
+    .risefx-footer{
+        padding-top: 20px;
+    }
+    .logo-footer-div{
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .logo-footer-div .about-footer,.Footer-Trading , .plf-footer, .parter-footer,.help-footer{
+        width: 45%;
+        margin-bottom: 15px;
+
+    }
+    .about-footer h5{
+        font-family: "Lato-Bold";
+        margin-left: 0px !important;
+    }
+    .Footer-Trading h5, .plf-footer h5, .parter-footer h5,.help-footer h5{
+        font-family: "Lato-Bold";
+        margin-left: 0px !important;
+
+        
+    }
+    .help-footer{
+        margin-left: 0px !important;
+
+    }
+    .plf-footer ul li {
+margin-left: 0px !important;
+    }
+    .Scontainer ul{
+        margin-left: 0px !important;
+        padding-left: 0px !important;
+        margin-bottom: 20px !important;
+    }
+    .Scontainer{
+        margin: auto !important;
+        width: 90% !important;
+    }
+    .viva{
+        text-align: start;
+
+    }
+    .button-class{
+        margin-bottom: 20px !important;
+    }
+    .viva h5{
+        margin-left: 20px !important;
+    }
+    .visa-logo-div img{
+        margin-left: 0px !important;
+        height: 50px !important;
+        margin-right: 20px;
+        margin-top: 20px !important;
+    }
+    .visa-logo-div{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+
+    }
+    .social {
+        padding: 0px !important;
+        width: 90% !important;
+        margin:  auto !important;
+        color: #7d7987;
+    }
+    .pic-1{
+        width: 200px !important;
+        margin: 0px !important ;
+        margin-bottom: 50px !important;
+    }
+}
+/* @media only screen and (max-width: 1024px){
+    .pic-1{
+        width: 120%;
+        margin-left: 50px;
+    }
+    .Scontainer{
+        width: 120%; 
+        margin-left: 50px;
+    }
+    .viva, .line-1 {
+        width: 140%;
+    }
+    .social{
+        width: 140%;
+        margin-top: 0px;
+        padding: 100px;
+    }
+    .viva p{
+margin-left: 100px;
+    }
+} */
+@media (min-width:765px) and (max-width:1200px){
+    .pic-1 {
+        width:10%;
+        margin: 0%;
+    }
+    .footer-wrapper{
+padding: 0%;
+    }
+    .Scontainer{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .Footer-Trading,.about-footer,.plf-footer,.parter-footer,.help-footer{
+        width: 180px;
+    }
+    .logo-footer-div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .social {
+        width: 100%;
+        padding-left:20px;
+        padding-right: 20px;
+    }
+}

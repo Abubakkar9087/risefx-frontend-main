@@ -1,0 +1,9 @@
+.simple-cards{
+    /* border:1px solid red; */
+    width:100px;
+    height:70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

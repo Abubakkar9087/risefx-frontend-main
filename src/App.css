@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+@font-face {
+
+  font-family:"Lato-Black" ;
+  src: url(../src//Fonts/Lato-Black.ttf);
+}
+@font-face {
+  font-family: "Lato-Light";
+  src: url(../src/Fonts/Lato-Light.ttf);
+}
+@font-face {
+  font-family: "Lato-Regular";
+  src: url(../src/Fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: "Lato-Thin";
+  src: url(../src/Fonts/Lato-Thin.ttf);
+}
+@font-face {
+  font-family: "Lato-Bold";
+  src: url(../src/Fonts/Lato-Bold.ttf);
+}
+
+:root {
+  --text-primary: #ffd700;
+  --text-normal:black;
+  --nav-links: #ffd700;
+  --button: #d4af37;
+  --section-bg: black;
+  --section-bg-gradient: linear-gradient(135deg, #b7853b84, #8e6a2b9a, #d4af3785);
+
+
+  --button-bg-light: linear-gradient(40deg, #f3d251, #AA771C);
+  --button-bg-dark: linear-gradient(90deg, #742cce, #1811a2)  ;
+  
+   
+  --nav-link-color-light: #b3b3b3;
+  --nav-link-color-dark :#0d1350;
+
+  --card-details-color-light: #b3b3b3;
+  --card-details-color-dark:#7d7987;
+
+  --border-light-color:#C39730;
+  --border-dark-color:#0d1350;
+
+  --account-header-light: linear-gradient(180deg, #C39730 0%, #FFFFFF 100%);
+  --account-header-dark: linear-gradient(180deg, #c5aeff -0.87%, #bfd6ff 99.08%);
+
+  --account-table-details-light:#24340E;
+  --account-table-details-dark:#515581;
+
+  --table-rows-light:#C39730;
+  --table-rows-dark:#C39730;
+
+  --card-image-light-bg: #EBC73A;
+  --card-image-dark-bg: rgba(152, 94, 255, 0.1);
+
+  --layout-bg-img-section1-light:  url("../src/Images/light1.svg");
+  --layout-bg-img-section1-dark:  url("../src/Images/background5.png");
+
+  --layout-bg-img-section2-light:  url("../src/Images/light2.png");
+  --layout-bg-img-section2-dark:  url("../src/Images/section-3.svg");
+
+  --layout-bg-img-section3-light:  url("../src/Images/section 6A.png");
+  --layout-bg-img-section3-dark:  url("../src/Images/section-6.svg");
+  
+  --layout-bg-img-section4-light:  url("../src/Images/light4.png");
+  --layout-bg-img-section4-dark:  url("../src/Images/background_11.svg");
+
+  --layout-bg-img-About-light:  url("../src/Images/aboutback-light1.png");
+  --layout-bg-img-About-dark:  url("../src/Images/About-back.svg");
+}
+.light{
+  --button-bg: var(--button-bg-light);
+  --nav-link-color: var(--nav-link-color-light);
+  --card-details: var(--card-details-color-light);
+  --border-color: var(--border-light-color);
+  --account: var(--account-header-light);
+  --account-table-details : var(--account-table-details-light);
+  --table-rows: var(--table-rows-light);
+  --card-img-bg: var(--card-image-light-bg);
+  --cover-img-bg-light:  blue(100%);
+
+--layout-bg-Section1: var(--layout-bg-img-section1-light);
+--layout-bg-Section2: var(--layout-bg-img-section2-light);
+--layout-bg-Section3: var(--layout-bg-img-section3-light);
+--layout-bg-Section4: var(--layout-bg-img-section4-light);
+
+--layout-bg-About: var(--layout-bg-img-About-light);
+
+background-color: var(--section-bg);
+
+}
+.dark{
+  --button-bg: var(--button-bg-dark);
+  --nav-link-color :var(--nav-link-color-dark);
+  --card-details: var(--card-details-color-dark);
+  --border-color: var(--border-dark-color);
+  --account: var(--account-header-dark);
+  --account-table-details : var(--account-table-details-dark);
+  --table-rows: var(var(--table-rows-dark));
+  --card-img-bg: var(--card-image-dark-bg);
+  --cover-img-bg-dark: filter: red(100%);
+
+    --layout-bg-img: var(--layout-bg-img-section1-dark);
+    --layout-bg-img: var(--layout-bg-img-section2-dark);
+    --layout-bg-img: var(--layout-bg-img-section3-dark);
+    --layout-bg-img: var(--layout-bg-img-section4-dark);
+
+    --layout-bg-img: var(--layout-bg-img-About-dark);
+
+
+}

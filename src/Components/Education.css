@@ -1,0 +1,295 @@
+.main-education-wrapper{
+    background-image: var(--layout-bg-About);
+    background-repeat: no-repeat;
+}
+.education-wrapper{
+    width: 80%;
+    margin: auto;
+  
+}
+.what-is-forex{
+    margin-bottom: 50px;
+    
+}
+.box-shaddow{
+    box-shadow: 10px 4px 35px rgba(28, 28, 29, 0.1);
+    background-color: #ffff;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+.education-wrapper h1{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: "Lato-Bold";
+    text-transform: uppercase;
+    color: var(--nav-link-color);
+    font-size: 48px;
+}
+.forex-header{
+    text-align: center;
+    font-size: 35px;
+    color: var(--nav-link-color);
+    margin: 30px auto;
+}
+.what-is-forex p ,.example p{
+    font-size: 16px;
+    font-family: "Lato-Regular";
+text-align: center;
+}
+.example-dollar-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.example-text ,.dollar-img-div{
+
+    width: 45%;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.dollar-img-div img{
+    width: 100%;
+    height: 250px;
+    
+}
+.li-currency{
+    font-size: 16px;
+    font-family: "Lato-Regular";
+}
+.currency-pairs{
+        background-color: #ffff;
+    margin: 30px auto;
+}
+.usd-card{
+    width: 150px;
+    box-shadow: 0 0 50px rgba(13, 19, 80, 0.05);
+    padding: 10px;
+}
+.dollar-img-card-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.dollar-img-card-div img{
+    width: 60px;
+    height: 50px;
+}
+.dollar-img-card-div p{
+    margin-bottom: 0px !important;
+    font-family: "Lato-Black";
+    font-size: 25px;
+}
+.usd-card button{
+    width: 100%;
+    border: 1px solid var(--border-color) ;
+    background: transparent;
+    border-radius: 10px;
+    margin: 20px auto;
+    margin-bottom: 10px;
+    font-family: "Lato-Bold";
+    text-transform: uppercase;
+    color: var(--border-color);
+
+}
+.curr-title{
+    text-align: center;
+    font-family: "lato-Regular";
+    margin-bottom: 0px;
+    color: var(--border-color);
+}
+.card-holder-div-usd{
+    width: 22%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.euro-worth-div{
+    width: 45%;
+    margin: auto;
+    box-shadow: 0 0 50px rgba(13, 19, 80, 0.05);
+    margin-top: 40px;
+}
+.euro-worth-div p{
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: "Lato-Regular";
+}
+.exchange-rate{
+    background-color: #ffff;
+    box-shadow: 10px 4px 35px rgba(28, 28, 29, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.exchange-rate li{
+    font-family: "Lato-Regular";
+    font-size: 16px;
+}
+.examp-text{
+    color: var(--nav-link-color);
+    margin-bottom: 0px;
+    text-align: start !important;
+
+}
+.exchange-flex-div{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.exp-div, .exp-img-div{
+    width: 45%;
+}
+.exp-img-div img{
+    width: 100%;
+    height: 100%;
+}
+.exp-div p{
+    font-family: "Lato-Regular";
+    font-size: 16px;
+}
+.table-wrapper{
+    margin:30px auto;
+    width: 60%;
+}
+.table-wrapper table{
+    width: 100%;
+}
+.table-wrapper table td{
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    font-family: "Lato-Bold";
+text-transform: uppercase;
+border: 1px solid white;
+
+
+}
+.table-wrapper table tbody tr:nth-child(odd){
+    background-color: var(--table-rows);
+}
+.table-wrapper table tbody tr:nth-child(even){
+    background-color: #ecf2fb;
+}
+.table-wrapper table th{
+background: var(--border-color);
+padding: 10px;
+text-align: center;
+color: white;
+font-family: "Lato-Bold";
+text-transform: uppercase;
+border-collapse: collapse;
+border: 1px solid white;
+
+}
+.current-table-header{
+    font-family: "Lato-Bold";
+    margin-left: 20px;
+    font-size: 16px;
+}
+.gold-crude-li{
+    font-size: 16px;
+    font-family: "Lato-Black" !important;
+    margin: 30px auto;
+}
+.pip-wrapper, .bid-place-div{
+    background-color: #ffff;
+    border-radius: 5px;
+}
+.pip-wrapper p,.pip-wrapper li, .bid-place-div li,.bid-place-div  p,.leverage-li li{
+    font-family: "Lato-Regular" !important  ;
+    font-size: 16px !important;
+}
+.bid-place-div  p{
+    text-align: center;
+}
+.bid-place-div  span{
+    font-family: "Lato-Black";
+}
+.spread-img-div{
+    width: fit-content;
+    margin:30px auto;
+}
+
+.leverage-formula {
+    width:'70%';
+    text-align: center;
+    font-family: "Lato-Regular";
+    font-size: 20px;
+}
+.leverage-formula p{
+    margin-bottom: 0px;
+}
+.leverage-formula span{
+    font-family: "Lato-Regular" !important;
+    border-bottom:  1px solid black;
+}
+
+@media (min-width:320px) and (max-width:765px){
+    .education-wrapper{
+        width: 95%;
+    }
+    .education-wrapper h1 {
+font-size: 25px;
+padding-bottom: 0px !important;
+    }
+    .forex-header {
+
+font-size: 25px;
+    }
+    .what-is-forex p{
+font-size: 15px;
+text-align: center;
+    }
+    .example p {
+font-size: 15px;
+
+    }
+    .example-dollar-div, .exchange-flex-div{
+        flex-direction: column;
+    }
+    .example-text, .dollar-img-div, .exp-div, .exp-img-div{
+        width: 100%;
+    }
+    .li-currency {
+font-size: 15px;
+    }
+    .card-holder-div-usd{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .usd-card button{
+        font-size: 13px;
+    }
+    .euro-worth-div{
+        width: 100%;
+    }
+    .exchange-rate li{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .table-wrapper{
+        width: 100%;
+        overflow: scroll;
+    }
+    .table-wrapper::-webkit-scrollbar{
+        display: none;
+    }
+    .current-table-header{
+        font-size: 15px;
+    }
+    .pip-wrapper p, .pip-wrapper li, .bid-place-div li, .bid-place-div p, .leverage-li li{
+        font-size: 15px !important;
+    }
+    .spread-img-div{
+        width: 100%;
+        overflow: hidden;
+    }
+    .spread-img-div img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="qa-ib" transform="translate(-16.000000, -676.000000)">
+            <g id="4" transform="translate(16.000000, 676.000000)">
+                <g id="checked-copy-20" fill="#95E2D2">
+                    <g id="Group-4">
+                        <g id="Group-2">
+                            <circle id="Oval" cx="10" cy="10" r="10"></circle>
+                        </g>
+                    </g>
+                </g>
+                <path d="M10.984,11.185 L10.984,7.874 C10.984,7.56133177 11.0049998,7.21600189 11.047,6.838 L7.904,11.185 L10.984,11.185 Z M13.763,11.185 L13.763,12.186 C13.763,12.2793338 13.732667,12.359833 13.672,12.4275 C13.611333,12.495167 13.5250006,12.529 13.413,12.529 L12.489,12.529 L12.489,15 L10.984,15 L10.984,12.529 L6.714,12.529 C6.59733275,12.529 6.49466711,12.4928337 6.406,12.4205 C6.31733289,12.3481663 6.26133345,12.2583339 6.238,12.151 L6.056,11.276 L10.851,4.871 L12.489,4.871 L12.489,11.185 L13.763,11.185 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
