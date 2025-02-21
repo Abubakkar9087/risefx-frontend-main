@@ -55,6 +55,7 @@ import { MdManageAccounts } from "react-icons/md";
 import { HiDocumentText } from "react-icons/hi2";
 import { IoShieldCheckmarkSharp } from "react-icons/io5";
 import DemoVideo from "../Video/demo.mov";
+import GraphAnimation from '../Video/trading-glow.webm'
 import ProcessingSteps from "./COMPONEMT/Component.js";
 import pic from "../Images/pc.webp";
 import mobile from "../Images/mobile.webp";
@@ -70,6 +71,8 @@ import { FaCheckSquare } from "react-icons/fa";
 import QRcode1 from "../Images/QRcode1.png";
 import QRcode2 from "../Images/QRcode2.png";
 import awarrd from "../Images/Awward.jpg";
+import screen from "../Images/TradingView_Image.webp";
+import section1Image from '../Images/section-1-image.png'
 
 
 const content = ["Rise with RISE FX", "World's Most Trusted Forex Broker Award Winner 2023", "40,000+ Happy Client's from Worldwide", "Be a fund Riser with RISEFX"];
@@ -135,29 +138,28 @@ const Section = () => {
   }, []);
   return (
     <>
-      <div className="img-div">
-        <video src={DemoVideo} autoPlay loop muted />
-
-      </div>
       <main className={`${theme}`}>
+        {/* --------------------------------------------------section 1------------------------------------------------ */}
+
         <div className={`wrapper-100`}>
 
-
-          <div className="main-wrapper">
-            <div className="left-wrapper">
-              <div class="typing-effects">
-                <p id="demo"></p>
-              </div>
-              <p className="First_paragraph">
-                We ensure you get the right opportunities to maximize your funds,
-                with the right ways and the right help
-              </p>
-              <button className="btns-1" ><NavLink className="create-link" to="https://panel.therisefx.com/register">
-                OPEN ACCOUNT
-              </NavLink></button>
-
+          {/* <div className="img-div">
+            <video src={DemoVideo} autoPlay loop muted />
+          </div> */}
+          <div className="left-wrapper">
+            <div class="typing-effects">
+              <p id="demo"></p>
             </div>
-
+            <p className="First_paragraph">
+              We ensure you get the right opportunities to maximize your funds,
+              with the right ways and the right help
+            </p>
+            <button className="btns-1" ><NavLink className="create-link" to="https://panel.therisefx.com/register">
+              OPEN ACCOUNT
+            </NavLink></button>
+          </div>
+          <div className="section1Img">
+            <img src={section1Image} alt="erorr" />
           </div>
         </div>
 
@@ -166,24 +168,17 @@ const Section = () => {
 
 
         <div className="why-rise-fx-landing-page">
-          <div className="text-h2">
-            <h2
-              className="About-Header about-header-center-padding-top"
-
-            >
-              Why Rise FX
-            </h2>
+          <div className="section2Header">
+            <h2 className="section2Header-h2">Why RISE FX</h2>
             <div className="Empty-line"></div>
           </div>
-          <p className="background"></p>
-          <div className="text-back">
-            <div className="text-back_paragraph">
-              There are many different choices for forex brokers in the
-              world, but here's some of the reasons why we think we're
-              unique.
-            </div>
+          <div className="text-back_paragraph">
+            There are many different choices for forex brokers in the
+            world, but here's some of the reasons why we think we're
+            unique.
           </div>
           <div className="main__why-we-are-different-grid">
+            <video src={GraphAnimation} autoPlay loop muted className="section2Video" />
             <div className="main__why-we-are-different-card">
               <div className="card__title">
                 Ultra-tight Spreads
@@ -209,7 +204,7 @@ const Section = () => {
               </div>
             </div>
             <div className="main__why-we-are-different-card">
-              
+
               <div className="card__title">Hassle-free Transactions</div>
               <div className="card__description">
                 Multiple deposit and withdrawal methods with zero deposit fees on most payment methods.
@@ -217,7 +212,7 @@ const Section = () => {
               </div>
             </div>
             <div className="main__why-we-are-different-card">
-              
+
               <div className="card__title">Top Institutional Liquidity</div>
               <div className="card__description">
                 Institutional-level liquidity access, ensuring ultra-tight spread.
@@ -225,34 +220,35 @@ const Section = () => {
               </div>
             </div>
             <div className="main__why-we-are-different-card">
-              
+
               <div className="card__title">Trust and Transparency</div>
               <div className="card__description">
                 Trust and Transparency form the basis of RISEFX core values.
 
               </div>
             </div>
-            <div className="main__why-we-are-different-card">
-             
-              <div className="card__title">
-                Fast Execution
 
-              </div>
-              <div className="card__description">
-                We ensure trades are carried out quickly and efficiently, with minimal delay between the order placement and its execution.
-
-              </div>
-            </div>
           </div>
 
         </div>
-        {/* -----------------------------------section-3----------------------------------------------- */}
+        {/* ---------------------------------------section-default----------------------------------------- */}
+
+        <div className="section-default">
+          <div className="section-default-card">
+            <img src={screen} alt="error" />
+          </div>
+          <div className="section-default-card">
+            <h2>RiseFX: Elevate Your Forex Trading</h2>
+            <p>RiseFX is a powerful platform designed for seamless forex trading, offering advanced tools, real-time analytics, and a user-friendly experience. Whether you're a beginner or a pro, RiseFX helps you navigate the market with confidence and precision. Start trading smarter today!</p>
+          </div>
+        </div>
+
+        {/* -----------------------------------------section-3----------------------------------------------- */}
         <div div className="section-3">
           <div className="text-h2">
             <h2>Why We're Different</h2>
             <div className="Empty-line"></div>
           </div>
-          <p className="background"></p>
           <div className="text-back">
             <p>
               Our vision is to provide access to the world’s markets easier,
@@ -261,7 +257,7 @@ const Section = () => {
           </div>
           <div className="main__why-we-are-different-grid">
             <div className="main__why-we-are-different-card">
-              
+
               <div className="card__title">Lowest forex trading costs</div>
               <div className="card__description">
                 With spreads from 0.0  commission per side, we offer a
@@ -270,7 +266,7 @@ const Section = () => {
               </div>
             </div>
             <div className="main__why-we-are-different-card">
-              
+
               <div className="card__title">White Glove Support</div>
               <div className="card__description">
                 As a live account holder, you will have your own trading
@@ -279,7 +275,7 @@ const Section = () => {
               </div>
             </div>
             <div className="main__why-we-are-different-card">
-             
+
               <div className="card__title">No Fees on Deposits</div>
               <div className="card__description">
                 We have waived fees on Visa, MasterCard, PayPal, Skrill &amp;
@@ -287,7 +283,7 @@ const Section = () => {
               </div>
             </div>
             <div className="main__why-we-are-different-card">
-              
+
               <div className="card__title">Copy Trading via Rise FX+</div>
               <div className="card__description">
                 {" "}
@@ -297,7 +293,7 @@ const Section = () => {
               </div>
             </div>
             <div className="main__why-we-are-different-card">
-              
+
               <div className="card__title">Free US Share CFD Trading</div>
               <div className="card__description">
                 Most brokers charge $5-$10 per trade for US Share CFDs. True to
@@ -305,7 +301,7 @@ const Section = () => {
               </div>
             </div>
             <div className="main__why-we-are-different-card">
-              
+
               <div className="card__title">Multiple account type</div>
               <div className="card__description">
                 {" "}
@@ -315,7 +311,7 @@ const Section = () => {
               </div>
             </div>
             <div className="main__why-we-are-different-card">
-              
+
               <div className="card__title">Easy -to- use platforms</div>
               <div className="card__description">
                 With spreads from 0.0 commission per side, we offer a
@@ -324,7 +320,7 @@ const Section = () => {
               </div>
             </div>
             <div className="main__why-we-are-different-card">
-            
+
               <div className="card__title">Automated Trading</div>
               <div className="card__description">
                 Rise FX pioneered the use of ‘expert advisors’ which are automated trading systems that are developed using this language.
@@ -332,7 +328,7 @@ const Section = () => {
               </div>
             </div>
             <div className="main__why-we-are-different-card">
-              
+
               <div className="card__title">Effective risk management</div>
               <div className="card__description">
                 RISE FX+ allows you to copy other successful RISE FX clients, have

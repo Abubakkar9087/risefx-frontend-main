@@ -27,11 +27,16 @@
 }
 
 :root {
-  --text-primary: #ffd700;
-  --text-normal:black;
-  --nav-links: #ffd700;
-  --button: #d4af37;
-  --section-bg: black;
+  --text-primary: #E5C100;
+  --text-normal:#e7e4e4;
+  --text-highlight: #FFD700; 
+  --nav-links: #D9D9D9;
+  --button: #E5C100;
+  --button-hover: #FFD700;
+  --section-bg: #0D0D0D;
+  --card-bg: #1A1A1A ;
+  --card-glow: #e1c10aeb;
+  --card-box-shadow: #cfb000de;
   --section-bg-gradient: linear-gradient(135deg, #b7853b84, #8e6a2b9a, #d4af3785);
 
 
@@ -93,7 +98,7 @@
 
 --layout-bg-About: var(--layout-bg-img-About-light);
 
-background-color: var(--section-bg);
+/* background-color: var(--section-bg); */
 
 }
 .dark{

@@ -60,7 +60,7 @@
 }
 .header-open-account:hover{
   /* opacity: .7; */
-  border: 1px solid var(--nav-links);
+  border: 1px solid var(--button);
   background-color: transparent;
   color: var(--nav-links);
   text-decoration: none;
@@ -98,7 +98,7 @@ nav .wapper{
   
   justify-content: space-between;
   height: 100%;
-  /* background-color: #1A1A1A; */
+  background-color: var(--section-bg);
   position: sticky;
   top: 0;
 }
@@ -152,7 +152,7 @@ nav{
     width: 100%;
     margin: 0 auto;
     /* box-shadow: 0 2px 4px rgba(13,19,80,0.06); */
-    background-color: #1a1a1a08;
+    background-color: var(--section-bg);
 }
 .nav-links .drop-down{
     width: 190px;
