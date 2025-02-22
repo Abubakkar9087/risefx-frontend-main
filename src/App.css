@@ -30,10 +30,11 @@
   --text-primary: #E5C100;
   --text-normal:#e7e4e4;
   --text-highlight: #FFD700; 
-  --nav-links: #D9D9D9;
+  --nav-links: #f8cf18;
   --button: #E5C100;
   --button-hover: #FFD700;
   --section-bg: #0D0D0D;
+  --section-bg-shade: #0d0d0dad;
   --card-bg: #1A1A1A ;
   --card-glow: #e1c10aeb;
   --card-box-shadow: #cfb000de;
@@ -44,10 +45,10 @@
   --button-bg-dark: linear-gradient(90deg, #742cce, #1811a2)  ;
   
    
-  --nav-link-color-light: #b3b3b3;
+  --nav-link-color-light: #e4e3e1;
   --nav-link-color-dark :#0d1350;
 
-  --card-details-color-light: #b3b3b3;
+  --card-details-color-light: #e4e3e1;
   --card-details-color-dark:#7d7987;
 
   --border-light-color:#C39730;

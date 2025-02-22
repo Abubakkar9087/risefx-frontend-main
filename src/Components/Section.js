@@ -25,16 +25,24 @@ import arow from "../Images/arrow-1.svg";
 import { RiWindowsFill } from "react-icons/ri";
 import arrow from "../Images/arrow.svg";
 import doller from "../Images/4doller.webp";
-import l10 from "../Images/Logo__10.png";
 import online from "../Images/Online.png";
-import drag from "../Images/dragonpay.png";
-import ezee from "../Images/eZeeWallet.png";
-import card from "../Images/card-1.svg";
-import L11 from "../Images/Logo__11.png";
-import Logo__9 from "../Images/Logo__9.webp";
-import Astropay from "../Images/Astropay.png";
-import log from "../Images/Logo__6.png";
-import logo8 from "../Images/Logo__8.png";
+import rightArrow from '../Images/right-arrow.png'
+
+// payment logo images start
+
+import log from "../Images/11.visa.png";
+import card from "../Images/12.mastercard.png";
+import logo8 from "../Images/13.paypal.png";
+import Logo__9 from "../Images/14.skrill.png";
+import Astropay from "../Images/15.astropay.png";
+import l10 from "../Images/16.neteller.png";
+import drag from "../Images/17.dragonpay.png";
+import Luqa_Pay_Logo from "../Images/18.Luqapay.png";
+import ezee from "../Images/19.ezeewallet.png";
+import L11 from "../Images/20.jeton.png";
+
+// payment logo images end
+
 import dropped from "../Images/dropped.svg";
 import Button from "@mui/material/Button";
 import dropped4 from "../Images/droppesd-4.svg";
@@ -45,7 +53,6 @@ import trust from "../Images/trustpilot.webp";
 import stars from "../Images/stars.webp";
 import ForexCrossRatesWidget from "./trading/index.js";
 import Header from "../Common/Header.js";
-import Luqa_Pay_Logo from "../Images/Luqa_Pay_Logo.png";
 import frontimage from "../Images/riser.png";
 import { ThemeContext } from "./themeProvider/Theme-provider.js";
 import { BsFire, BsFillCalendar2RangeFill, BsCalculator } from "react-icons/bs";
@@ -54,7 +61,7 @@ import { BiCreditCardFront, BiSolidCoffeeBean } from "react-icons/bi";
 import { MdManageAccounts } from "react-icons/md";
 import { HiDocumentText } from "react-icons/hi2";
 import { IoShieldCheckmarkSharp } from "react-icons/io5";
-import DemoVideo from "../Video/demo.mov";
+import DemoVideo from "../Video/demo.mp4";
 import GraphAnimation from '../Video/trading-glow.webm'
 import ProcessingSteps from "./COMPONEMT/Component.js";
 import pic from "../Images/pc.webp";
@@ -71,7 +78,7 @@ import { FaCheckSquare } from "react-icons/fa";
 import QRcode1 from "../Images/QRcode1.png";
 import QRcode2 from "../Images/QRcode2.png";
 import awarrd from "../Images/Awward.jpg";
-import screen from "../Images/TradingView_Image.webp";
+import screen from "../Images/pc.webp";
 import section1Image from '../Images/section-1-image.png'
 
 
@@ -143,9 +150,9 @@ const Section = () => {
 
         <div className={`wrapper-100`}>
 
-          {/* <div className="img-div">
+          <div className="img-div">
             <video src={DemoVideo} autoPlay loop muted />
-          </div> */}
+          </div>
           <div className="left-wrapper">
             <div class="typing-effects">
               <p id="demo"></p>
@@ -154,13 +161,13 @@ const Section = () => {
               We ensure you get the right opportunities to maximize your funds,
               with the right ways and the right help
             </p>
-            <button className="btns-1" ><NavLink className="create-link" to="https://panel.therisefx.com/register">
-              OPEN ACCOUNT
+            <button className="btns-1" ><NavLink className="create-links" to="https://panel.therisefx.com/register">
+              OPEN ACCOUNT <img src={rightArrow} alt="" className="right-arrow"/>
             </NavLink></button>
           </div>
-          <div className="section1Img">
+          {/* <div className="section1Img">
             <img src={section1Image} alt="erorr" />
-          </div>
+          </div> */}
         </div>
 
 
@@ -169,7 +176,7 @@ const Section = () => {
 
         <div className="why-rise-fx-landing-page">
           <div className="section2Header">
-            <h2 className="section2Header-h2">Why RISE FX</h2>
+            <h2 className="section2Header-h2">Why Rise FX</h2>
             <div className="Empty-line"></div>
           </div>
           <div className="text-back_paragraph">
@@ -340,7 +347,7 @@ const Section = () => {
         {/* -----------------------------------------section-4------------------------------------------------------------------ */}
         <div className="section-4">
 
-          <h2>  START TRADING WITH RISE FX</h2>
+          <h2>  Start Trading With Rise FX</h2>
           <div className="Empty-line"></div>
 
         </div>
@@ -386,7 +393,7 @@ const Section = () => {
               TRY A FREE DEMO
             </NavLink>
           </Button>
-          <p>OR</p>
+          <p className="or">OR</p>
           <button
             variant="outlined"
             id="get-a-live-account"
@@ -402,7 +409,7 @@ const Section = () => {
         <div className="section-5">
           <h2>Our Funding Method</h2>
           <div className="Empty-line"></div>
-          <p> Transfer your fund with 0% fees.</p>
+          <p> Transfer your fund with 0% fees. With Our Top Trusted Brands</p>
           <div className="hidden-div">
             <div className="visible-card">
               <div className="visible-img">
@@ -432,24 +439,24 @@ const Section = () => {
               )}
             </div>
 
-            <button onClick={toggleVisibility}>
+            <button onClick={toggleVisibility} className="btns-1">
               {isVisible ? "Show Less" : "Show More"}
             </button>
           </div>
         </div>
 
         {/* ------------------------------------------------------section 7-------------------------------------------------------------    */}
-        <div className="section7-heading">
-          <h1>Range Of Trading platform</h1>
-        </div>
-        <div className="Empty-line"></div>
-
-        <p className="section7-p">
-          RISE FX Markets is committed to offering flexibility for all of our
-          clients. Choose from our range of trading
-          platforms listed below.
-        </p>
         <div className="section-7 section-7background-image ">
+          <div className="section7-heading">
+            <h1>Range Of Trading platform</h1>
+          </div>
+          <div className="Empty-line" style={{ border: "2px solid #b3b3b3", maxWidth: "100px" }}></div>
+
+          <p className="section7-p">
+            RISE FX Markets is committed to offering flexibility for all of our
+            clients. Choose from our range of trading
+            platforms listed below.
+          </p>
 
           <TabContext value={value} className="rise-tabss">
             <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
@@ -480,7 +487,7 @@ const Section = () => {
               <div className="text-h2">
                 <h2
                   className="About-Header"
-                  style={{ textAlign: "center", paddingTop: "120px" }}
+                  style={{ textAlign: "center" }}
                 >
                   Download Rise FX for Mobile
                 </h2>
@@ -532,7 +539,7 @@ const Section = () => {
               <div className="text-h2">
                 <h2
                   className="About-Header"
-                  style={{ textAlign: "center", paddingTop: "120px" }}
+                  style={{ textAlign: "center" }}
                 >
                   RiseFX Web Trader
                 </h2>
@@ -563,56 +570,44 @@ const Section = () => {
               <div className="text-h2">
                 <h2
                   className="About-Header"
-                  style={{ textAlign: "center", paddingTop: "120px" }}
+                  style={{ textAlign: "center" }}
                 >
                   Other features of a Rise FX   WebTrader
                 </h2>
                 <div className="Empty-line"></div>
               </div>
               <div className="main__why-we-are-different-grid">
-                <div className="main__why-we-are-different-card platform-card">
-                  <div className="bg-icon">
-                    <BsFire size={30} className="react-icon-div" />
-                  </div>
+                <div className="main__why-we-are-different-card">
+
                   <div className="card__description">
                     Trading directly via your browser{" "}
                   </div>
                 </div>
-                <div className="main__why-we-are-different-card platform-card">
-                  <div className="bg-icon">
-                    <BsFillCalendar2RangeFill size={30} className="react-icon-div" />
-                  </div>
+                <div className="main__why-we-are-different-card">
+
                   <div className="card__description">
                     Compatibility with any operating system
                   </div>
                 </div>
-                <div className="main__why-we-are-different-card platform-card">
-                  <div className="bg-icon">
-                    <PiCalculatorFill size={30} className="react-icon-div" />
-                  </div>
+                <div className="main__why-we-are-different-card">
+
                   <div className="card__description">One Click Trading</div>
                 </div>
-                <div className="main__why-we-are-different-card platform-card">
-                  <div className="bg-icon">
-                    <PiCurrencyDollarBold size={30} className="react-icon-div" />
-                  </div>
+                <div className="main__why-we-are-different-card">
+
                   <div className="card__description">
                     {" "}
                     History of trading oprations
                   </div>
                 </div>
-                <div className="main__why-we-are-different-card platform-card">
-                  <div className="bg-icon">
-                    <BiCreditCardFront size={30} className="react-icon-div" />
-                  </div>
+                <div className="main__why-we-are-different-card">
+
                   <div className="card__description">
                     Real-time quotes in Market Watch
                   </div>
                 </div>
-                <div className="main__why-we-are-different-card platform-card">
-                  <div className="bg-icon">
-                    <LuFolderSearch2 size={30} className="react-icon-div" />
-                  </div>
+                <div className="main__why-we-are-different-card">
+
                   <div className="card__description">9 timeframes </div>
                 </div>
               </div>
@@ -626,7 +621,7 @@ const Section = () => {
               <div className="text-h2">
                 <h2
                   className="About-Header"
-                  style={{ textAlign: "center", paddingTop: "120px" }}
+                  style={{ textAlign: "center" }}
                 >
                   Download Rise FX for Desktop
                 </h2>
@@ -671,56 +666,44 @@ const Section = () => {
               <div className="text-h2">
                 <h2
                   className="About-Header"
-                  style={{ textAlign: "center", paddingTop: "120px" }}
+                  style={{ textAlign: "center" }}
                 >
                   RiseFX Platform
                 </h2>
                 <div className="Empty-line"></div>
               </div>
               <div className="main__why-we-are-different-grid">
-                <div className="main__why-we-are-different-card platform-card">
-                  <div className="bg-icon">
-                    <FaCheckSquare size={30} className="react-icon-div" />
-                  </div>
+                <div className="main__why-we-are-different-card">
+
                   <div className="card__description">
                     The ability to trade Forex, Stocks, Futures and more as CFDs
                   </div>
                 </div>
-                <div className="main__why-we-are-different-card platform-card">
-                  <div className="bg-icon">
-                    <FaCheckSquare size={30} className="react-icon-div" />
-                  </div>
+                <div className="main__why-we-are-different-card">
+
                   <div className="card__description">
                     Faster processing speeds
                   </div>
                 </div>
-                <div className="main__why-we-are-different-card platform-card">
-                  <div className="bg-icon">
-                    <FaCheckSquare size={30} className="react-icon-div" />
-                  </div>
+                <div className="main__why-we-are-different-card">
+
                   <div className="card__description">21 Timeframes</div>
                 </div>
-                <div className="main__why-we-are-different-card platform-card">
-                  <div className="bg-icon">
-                    <FaCheckSquare size={30} className="react-icon-div" />
-                  </div>
+                <div className="main__why-we-are-different-card">
+
                   <div className="card__description">
                     Advanced Pending Orders
 
                   </div>
                 </div>
-                <div className="main__why-we-are-different-card platform-card">
-                  <div className="bg-icon">
-                    <FaCheckSquare size={30} className="react-icon-div" />
-                  </div>
+                <div className="main__why-we-are-different-card">
+
                   <div className="card__description">
                     80+ Technical Analysis objects
                   </div>
                 </div>
-                <div className="main__why-we-are-different-card platform-card">
-                  <div className="bg-icon">
-                    <FaCheckSquare size={30} className="react-icon-div" />
-                  </div>
+                <div className="main__why-we-are-different-card">
+
                   <div className="card__description">Market Depth
                   </div>
                 </div>
@@ -734,7 +717,7 @@ const Section = () => {
 
         {/* ------------------------------------------------------section 8------------------------------------------------------------------ */}
         <div className="rise-wrapper">
-          <div className="section7-heading">
+          <div className="section8-heading">
             <h1> Ready to Start Trading?</h1>
           </div>
           <div className="Empty-line"></div>
@@ -744,7 +727,7 @@ const Section = () => {
                 TRY A FREE DEMO
               </NavLink>
             </Button>
-            <p>OR</p>
+            <p className="or">OR</p>
             <button
               variant="outlined"
               id="get-a-live-account"
@@ -757,9 +740,9 @@ const Section = () => {
           </div>
         </div>
 
-        {/* ------------------------------------------------------section 2------------------------------------------------------------------ */}
-        <div className="">
-          <div className="" style={{ marginTop: "100px" }}>
+        {/* ------------------------------------------------------section 9------------------------------------------------------------------ */}
+        <div className="section-9">
+          <div className="section-9-img">
 
             <div
               style={{
@@ -787,15 +770,13 @@ const Section = () => {
           </div>
         </div>
 
+        {/* ------------------------------------------------------section 10------------------------------------------------------------------ */}
 
-
-
-
-
-        <div className="section-2">
-          <div className="section2-2">
+        <div className="section-10">
+          <div className="section-10-heading">
             <h2>Live Market Prices</h2>
-            <div className="para">
+            <div className="Empty-line"></div> 
+            <div className="section-10-para">
               <p>
                 RISE FX provides brokerage services by integrating all the most
                 popular trading solutions into our platform for hassle-free
