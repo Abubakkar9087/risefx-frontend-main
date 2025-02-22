@@ -1,7 +1,6 @@
 /* navbar start*/
 
 nav {
-  background-color: red;
   position: sticky;
   z-index: 999;
   height: 80px;
@@ -498,7 +497,7 @@ ul .nav-links a {
   z-index: 9999999;
 }
 
-@media only screen and (min-width: 320px)and (max-width:736px) {
+@media only screen and (min-width: 320px)and (max-width:1140px) {
   nav {
     width: 100vw;
     display: flex;

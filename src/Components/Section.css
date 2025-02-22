@@ -326,7 +326,8 @@ body {
   background-color: var(--section-bg);
   padding: 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -407,7 +408,6 @@ body {
 .section-4 h2 {
   color: var(--text-primary);
   font-size: 30px;
-  padding-top: 110px;
   font-family: "Lato-Bold";
 }
 #try-a-free-demo {
@@ -486,7 +486,7 @@ body {
 .section-5 h2 {
   text-align: center;
   font-size: 30px;
-  padding-top: 80px;
+  padding-top: 20px;
   font-family: "Lato-Bold";
   color: var(--text-primary);
 }
@@ -510,10 +510,11 @@ body {
     width: 150px;
     height: 100px;
     object-fit: contain;
+    aspect-ratio: 1/1;
   }
 }
 .visible-card {
-  margin-top: 80px;
+  margin-top: 20px;
   height: fit-content;
   border-radius: 20px;
   width: 100%;
@@ -521,21 +522,25 @@ body {
 .visible-img {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  gap: 30px;
+  justify-content: center;
   flex-wrap: wrap;
-
+  object-fit: contain;
 }
 
 .hidden-logo {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 
 .hidden-logo img {
   margin-left: 30px;
   margin-top: 30px;
+  object-fit: contain;
 }
 
 
@@ -1127,7 +1132,6 @@ main {
   width: 100px;
   margin: auto;
   margin-top: 50px !important;
-  margin-bottom: 50px !important;
   color: var(--text-normal);
 
 }
@@ -1617,7 +1621,22 @@ main {
 .section-7>div.MuiBox-root.css-1gsv261>div>div>span {
   background-color: var(--border-color) !important;
 }
+/* -----------------------------------------------media query start----------------------------------------------------- */
 
+  @media (max-width: 1250px){
+    .section-default{
+      padding: 20px;
+    }
+    .section-default-card{
+      min-height: 300px;
+    }
+    .inner-container{
+      padding: 0 !important;
+    }
+
+  }
+
+/* -----------------------------------------------media query end--------------------------------------------------------- */
 @media screen and (max-width: 1200px) and (min-width: 763px) {
   .typing-demos {
     width: 100%;
